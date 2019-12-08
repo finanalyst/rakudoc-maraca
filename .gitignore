@@ -1,0 +1,9 @@
+# Caches
+.precomp/
+node_modules/
+ui/node_modules/
+ui/yarn.lock
+ui/public/
+
+# Backup files
+*~

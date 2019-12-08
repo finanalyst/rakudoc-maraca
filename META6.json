@@ -1,0 +1,32 @@
+{
+  "name": "rakudoc",
+  "description": "Write me!",
+  "version": "0.0.1",
+  "perl": "6.*",
+  "meta-version": "0",
+  "authors": [
+    ""
+  ],
+  "auth": "Write me!",
+  "depends": [
+    "Cro::HTTP",
+    "Cro::WebSocket",
+    "JSON:Fast"
+  ],
+  "build-depends": [],
+  "test-depends": [],
+  "provides": {
+    "RGB-HSL-CONV": "lib/rgb-hsl-conv.pm6",
+    "Routes.pm6": "lib/Routes.pm6",
+    "palette-converter.raku": "bin/palette-converter.raku"
+  },
+  "resources": [],
+  "support": {
+    "source": "Write me!"
+  },
+  "license": "MIT",
+  "tags": [
+    ""
+  ],
+  "source-url": "Write me!"
+}

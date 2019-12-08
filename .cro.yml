@@ -1,0 +1,17 @@
+---
+cro: 1
+env:  []
+entrypoint: service.p6
+endpoints: 
+  - 
+    port-env: RAKUDOC_PORT
+    protocol: http
+    host-env: RAKUDOC_HOST
+    name: HTTP
+    id: http
+id: rakudoc
+links:  []
+name: rakudoc
+ignore:
+  - ui/
+...

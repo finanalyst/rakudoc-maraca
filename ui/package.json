@@ -1,0 +1,12 @@
+{
+  "license": "MIT",
+  "scripts": {
+    "prettier": "prettier --write \"**/*.ma\"",
+    "rebuild": "rimraf public/* && webpack --config node_modules/maraca-app/webpack.config.js --env dev"
+  },
+  "dependencies": {
+    "maraca-app": "^0.2.5",
+    "prettier": "^1.19.1",
+    "prettier-plugin-maraca": "^0.3.4"
+  }
+}

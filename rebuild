@@ -1,0 +1,3 @@
+#! /bin/bash
+yarn --cwd ui/ rebuild
+yarn --cwd ui/ prettier
