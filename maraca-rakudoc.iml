@@ -5,5 +5,1213 @@
       <sourceFolder url="file://$MODULE_DIR$/lib" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Cro::WebSocket" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Cro::WebSocket!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Base64" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Base64!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="JSON::JWT" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:JSON::JWT!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Digest::HMAC" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Digest::HMAC!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="HTTP::HPACK" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:HTTP::HPACK!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Digest" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Digest!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="LibraryMake" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:LibraryMake!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Cro::HTTP" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Cro::HTTP!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="MIME::Base64" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:MIME::Base64!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="JSON:Fast" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:JSON:Fast!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Log::Timeline" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Log::Timeline!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="OpenSSL" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:OpenSSL!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="OO::Monitors" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:OO::Monitors!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Cro::Core" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Cro::Core!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Digest::SHA1::Native" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Digest::SHA1::Native!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Cro::TLS" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Cro::TLS!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Crypt::Random" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Crypt::Random!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="DateTime::Parse" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:DateTime::Parse!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="JSON::Fast" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:JSON::Fast!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="if" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:if!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="IO::Socket::Async::SSL" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:IO::Socket::Async::SSL!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="IO::Path::ChildSecure" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:IO::Path::ChildSecure!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Cro::WebSocket" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Cro::WebSocket!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Base64" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Base64!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="JSON::JWT" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:JSON::JWT!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Digest::HMAC" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Digest::HMAC!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="HTTP::HPACK" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:HTTP::HPACK!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Digest" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Digest!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="LibraryMake" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:LibraryMake!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Cro::HTTP" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Cro::HTTP!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="MIME::Base64" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:MIME::Base64!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="JSON:Fast" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:JSON:Fast!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Log::Timeline" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Log::Timeline!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="OpenSSL" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:OpenSSL!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="OO::Monitors" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:OO::Monitors!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Cro::Core" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Cro::Core!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Digest::SHA1::Native" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Digest::SHA1::Native!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Cro::TLS" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Cro::TLS!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Crypt::Random" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Crypt::Random!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="DateTime::Parse" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:DateTime::Parse!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="JSON::Fast" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:JSON::Fast!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="if" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:if!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="IO::Socket::Async::SSL" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:IO::Socket::Async::SSL!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="IO::Path::ChildSecure" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:IO::Path::ChildSecure!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Cro::WebSocket" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Cro::WebSocket!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Base64" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Base64!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="JSON::JWT" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:JSON::JWT!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Digest::HMAC" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Digest::HMAC!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="HTTP::HPACK" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:HTTP::HPACK!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Digest" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Digest!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="LibraryMake" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:LibraryMake!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Cro::HTTP" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Cro::HTTP!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="MIME::Base64" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:MIME::Base64!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="JSON:Fast" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:JSON:Fast!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Log::Timeline" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Log::Timeline!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="OpenSSL" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:OpenSSL!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="OO::Monitors" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:OO::Monitors!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Cro::Core" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Cro::Core!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Digest::SHA1::Native" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Digest::SHA1::Native!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Cro::TLS" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Cro::TLS!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Crypt::Random" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Crypt::Random!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="DateTime::Parse" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:DateTime::Parse!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="JSON::Fast" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:JSON::Fast!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="if" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:if!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="IO::Socket::Async::SSL" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:IO::Socket::Async::SSL!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="IO::Path::ChildSecure" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:IO::Path::ChildSecure!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Cro::WebSocket" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Cro::WebSocket!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Log::Timeline:ver&lt;0.3&gt;" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Log::Timeline:ver&lt;0.3&gt;!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="URI:ver&lt;0.2.2+&gt;" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:URI:ver&lt;0.2.2+&gt;!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Base64" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Base64!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="JSON::JWT" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:JSON::JWT!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Digest::HMAC" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Digest::HMAC!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="File::Directory::Tree" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:File::Directory::Tree!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Cro::HTTP" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Cro::HTTP!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Pod::Load:ver&lt;0.5.4&gt;" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Pod::Load:ver&lt;0.5.4&gt;!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="JSON:Fast" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:JSON:Fast!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="URI" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:URI!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="OO::Monitors" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:OO::Monitors!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="JSON::Fast:ver&lt;0.9.18+&gt;" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:JSON::Fast:ver&lt;0.9.18+&gt;!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="DateTime::Parse" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:DateTime::Parse!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="if" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:if!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="IO::Socket::Async::SSL" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:IO::Socket::Async::SSL!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="IO::Path::ChildSecure" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:IO::Path::ChildSecure!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Pod::To::HTML:ver&lt;0.6.1+&gt;" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Pod::To::HTML:ver&lt;0.6.1+&gt;!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="HTTP::HPACK" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:HTTP::HPACK!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Digest" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Digest!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="JSON::Fast:ver&lt;0.9.18&gt;" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:JSON::Fast:ver&lt;0.9.18&gt;!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="LibraryMake" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:LibraryMake!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Perl6::Documentable" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Perl6::Documentable!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Pod::To::Cached:ver&lt;0.3.3+&gt;" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Pod::To::Cached:ver&lt;0.3.3+&gt;!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="MIME::Base64" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:MIME::Base64!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Log::Timeline" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Log::Timeline!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="OpenSSL" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:OpenSSL!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Template::Mustache" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Template::Mustache!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Cro::Core" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Cro::Core!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Digest::SHA1::Native" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Digest::SHA1::Native!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Cro::TLS" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Cro::TLS!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Crypt::Random" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Crypt::Random!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Pod::Utilities:ver&lt;0.0.1&gt;" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Pod::Utilities:ver&lt;0.0.1&gt;!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Pod::Load:ver&lt;0.4.0+&gt;" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Pod::Load:ver&lt;0.4.0+&gt;!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="File::Temp:ver&lt;0.0.6&gt;" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:File::Temp:ver&lt;0.0.6&gt;!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="JSON::Fast" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:JSON::Fast!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Perl6::TypeGraph:ver&lt;2.1.1+&gt;:auth&lt;github:antoniogamiz&gt;:api&lt;2&gt;" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Perl6::TypeGraph:ver&lt;2.1.1+&gt;:auth&lt;github:antoniogamiz&gt;:api&lt;2&gt;!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Cro::WebSocket" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Cro::WebSocket!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Log::Timeline:ver&lt;0.3&gt;" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Log::Timeline:ver&lt;0.3&gt;!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="URI:ver&lt;0.2.2+&gt;" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:URI:ver&lt;0.2.2+&gt;!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="JSON::Unmarshal" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:JSON::Unmarshal!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Base64" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Base64!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="JSON::JWT" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:JSON::JWT!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Digest::HMAC" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Digest::HMAC!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="File::Directory::Tree" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:File::Directory::Tree!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Cro::HTTP" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Cro::HTTP!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Pod::Load:ver&lt;0.5.4&gt;" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Pod::Load:ver&lt;0.5.4&gt;!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="JSON::Class:ver&lt;0.0.5+&gt;" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:JSON::Class:ver&lt;0.0.5+&gt;!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="JSON:Fast" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:JSON:Fast!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="META6" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:META6!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="URI" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:URI!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="JSON::Name" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:JSON::Name!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Path::Finder" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Path::Finder!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="OO::Monitors" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:OO::Monitors!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="JSON::Fast:ver&lt;0.9.18+&gt;" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:JSON::Fast:ver&lt;0.9.18+&gt;!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Test" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Test!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Test::META" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Test::META!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="DateTime::Parse" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:DateTime::Parse!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="JSON::Class" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:JSON::Class!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="if" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:if!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="IO::Socket::Async::SSL" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:IO::Socket::Async::SSL!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="IO::Path::ChildSecure" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:IO::Path::ChildSecure!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Pod::To::HTML:ver&lt;0.6.1+&gt;" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Pod::To::HTML:ver&lt;0.6.1+&gt;!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="HTTP::HPACK" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:HTTP::HPACK!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Digest" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Digest!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="JSON::Fast:ver&lt;0.9.18&gt;" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:JSON::Fast:ver&lt;0.9.18&gt;!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="JSON::Marshal" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:JSON::Marshal!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="LibraryMake" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:LibraryMake!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Perl6::Documentable" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Perl6::Documentable!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Pod::To::Cached:ver&lt;0.3.3+&gt;" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Pod::To::Cached:ver&lt;0.3.3+&gt;!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="MIME::Base64" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:MIME::Base64!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Log::Timeline" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Log::Timeline!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="OpenSSL" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:OpenSSL!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Template::Mustache" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Template::Mustache!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="IO::Glob" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:IO::Glob!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="License::SPDX" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:License::SPDX!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Cro::Core" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Cro::Core!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Digest::SHA1::Native" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Digest::SHA1::Native!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Cro::TLS" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Cro::TLS!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Crypt::Random" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Crypt::Random!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Pod::Utilities:ver&lt;0.0.1&gt;" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Pod::Utilities:ver&lt;0.0.1&gt;!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Pod::Load:ver&lt;0.4.0+&gt;" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Pod::Load:ver&lt;0.4.0+&gt;!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="File::Temp:ver&lt;0.0.6&gt;" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:File::Temp:ver&lt;0.0.6&gt;!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="JSON::Fast" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:JSON::Fast!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Perl6::TypeGraph:ver&lt;2.1.1+&gt;:auth&lt;github:antoniogamiz&gt;:api&lt;2&gt;" type="perl6">
+        <CLASSES />
+        <SOURCES>
+          <root url="raku://448594423:Perl6::TypeGraph:ver&lt;2.1.1+&gt;:auth&lt;github:antoniogamiz&gt;:api&lt;2&gt;!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>

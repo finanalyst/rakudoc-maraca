@@ -11,14 +11,17 @@
   "depends": [
     "Cro::HTTP",
     "Cro::WebSocket",
-    "JSON:Fast"
+    "JSON:Fast",
+    "OO::Monitors",
+    "Perl6::Documentable",
+    "Path::Finder"
   ],
   "build-depends": [],
   "test-depends": [],
   "provides": {
+    "DocSearch": "lib/DocSearch.pm6",
     "RGB-HSL-CONV": "lib/rgb-hsl-conv.pm6",
-    "Routes.pm6": "lib/Routes.pm6",
-    "palette-converter.raku": "bin/palette-converter.raku"
+    "Routes.pm6": "lib/Routes.pm6"
   },
   "resources": [],
   "support": {

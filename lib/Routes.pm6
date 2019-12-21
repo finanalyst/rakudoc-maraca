@@ -1,6 +1,7 @@
 use Cro::HTTP::Router;
 use Cro::HTTP::Router::WebSocket;
 use JSON::Fast;
+use DocSearch;
 
 class Cro::WebSocket::BodyParser::Maraca does Cro::BodyParser {
     method is-applicable($message) {
@@ -22,14 +23,13 @@ class Cro::WebSocket::BodyParser::Maraca does Cro::BodyParser {
     }
 }
 
-sub routes() is export {
+sub routes( Supplier $feedback, DocSearch $ds ) is export {
     route {
         get -> *@path {
-            static 'ui/public/', @path, :indexes<index.html index.htm>
+            static 'static/', @path, :indexes<index.html index.htm>
         }
 
-        my $chat = Supplier.new;
-        get -> 'rakudoc' {
+        get -> 'docresponse' {
             web-socket
                     :body-parsers(Cro::WebSocket::BodyParser::Maraca),
                     :body-serializers(Cro::WebSocket::BodySerializer::JSON),
@@ -37,7 +37,23 @@ sub routes() is export {
                         supply {
                             whenever $incoming -> $message {
                                 my $json = await $message.body;
-                                emit %( :searched( $json ), :found<Finding> );
+                                $feedback.emit($json);
+                                if $json ~~ Str {
+                                    emit %( :routine( $json ), :info('Sending error' );
+                                }
+                                else {
+                                    if $json<routine>:exists {
+                                        if $json<type>:exists {
+                                            emit( $ds.doc-of($json<type>, $json<routine>))
+                                        }
+                                        else {
+                                            emit( $ds.what-has($json<routine>))
+                                        }
+                                    }
+                                    else {
+                                        emit %( :routine( $json ), :info('Sending error' );
+                                    }
+                                }
                             }
                         }
                     }
