@@ -51,7 +51,7 @@
     .[
       resp=>>
         (
-          !resp? doc,
+          (!resp? doc, !resp? info),
           [
             style: left bold,
             gap: 10,
@@ -75,6 +75,36 @@
                     dtype?,
                     click? | [routine: rtn?, type: dtype?] -> #docserver,
                   ],
+              ],
+            ],
+          ],
+        ),
+    ],
+    Documentation\:,
+    responses?
+    .[
+      resp=>>
+        (
+          resp? info,
+          [
+            style: left bold,
+            gap: 10,
+            pad: 2 20,
+            fill: colors?."C 0",
+            color: colors?."P 0",
+            round: 20,
+            [
+              style: left bold,
+              resp? type,
+              '.',
+              resp? routine,
+              [
+                pad: 2 30,
+                round: 5,
+                style: normal,
+                fill: colors?."S2 0",
+                color: colors?."P 0",
+                resp? info,
               ],
             ],
           ],

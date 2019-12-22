@@ -62,7 +62,7 @@ sub routes( DocSearch $ds ) is export {
                             whenever $incoming -> $message {
                                 my $json = await $message.body;
                                 if $json ~~ Str {
-                                    emit %( :routine( $json ), :types( ['Sending error'] ));
+                                    emit %( :routine( $json ), :info( 'Sending error' ));
                                 }
                                 else {
                                     if $json<routine>:exists {
@@ -76,7 +76,7 @@ sub routes( DocSearch $ds ) is export {
                                         }
                                     }
                                     else {
-                                        emit %( :routine( $json ), :types( ['Sending error'] ));
+                                        emit %( :routine( $json ), :info( 'Sending error' ));
                                     }
                                 }
                             }

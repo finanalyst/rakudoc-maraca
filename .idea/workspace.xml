@@ -4,7 +4,6 @@
     <list default="true" id="9dbe62ab-daad-482d-afa7-ed63eef12ddb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/lib/DocSearch.pm6" beforeDir="false" afterPath="$PROJECT_DIR$/lib/DocSearch.pm6" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/Routes.pm6" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Routes.pm6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service.p6" beforeDir="false" afterPath="$PROJECT_DIR$/service.p6" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/t/01-basic.t" beforeDir="false" afterPath="$PROJECT_DIR$/t/01-basic.t" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui/src/start.ma" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/start.ma" afterDir="false" />
     </list>
@@ -20,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ui/src/start.ma">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="73" column="27" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
+            <state relative-caret-position="510">
+              <caret line="106" column="26" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -47,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/Routes.pm6">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="73" column="71" selection-start-line="73" selection-start-column="71" selection-end-line="73" selection-end-column="71" />
+            <state relative-caret-position="435">
+              <caret line="78" column="89" selection-start-line="78" selection-start-column="89" selection-end-line="78" selection-end-column="89" />
             </state>
           </provider>
         </entry>
@@ -56,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/DocSearch.pm6">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
+            <state relative-caret-position="370">
+              <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -65,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/t/01-basic.t">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+            <state relative-caret-position="270">
+              <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -133,10 +132,10 @@
         <option value="$PROJECT_DIR$/lib/P6doc.pm6" />
         <option value="$PROJECT_DIR$/test.p6" />
         <option value="$PROJECT_DIR$/service.p6" />
-        <option value="$PROJECT_DIR$/lib/Routes.pm6" />
-        <option value="$PROJECT_DIR$/lib/DocSearch.pm6" />
-        <option value="$PROJECT_DIR$/t/01-basic.t" />
         <option value="$PROJECT_DIR$/ui/src/start.ma" />
+        <option value="$PROJECT_DIR$/lib/Routes.pm6" />
+        <option value="$PROJECT_DIR$/t/01-basic.t" />
+        <option value="$PROJECT_DIR$/lib/DocSearch.pm6" />
       </list>
     </option>
   </component>
@@ -254,7 +253,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32881773" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32881773" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.35098523" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3953202" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -401,27 +400,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/t/01-basic.t">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/DocSearch.pm6">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Routes.pm6">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="73" column="71" selection-start-line="73" selection-start-column="71" selection-end-line="73" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ui/src/colors.ma">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -429,10 +407,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Routes.pm6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="78" column="89" selection-start-line="78" selection-start-column="89" selection-end-line="78" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/t/01-basic.t">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/DocSearch.pm6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ui/src/start.ma">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="73" column="27" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
+        <state relative-caret-position="510">
+          <caret line="106" column="26" selection-start-line="106" selection-start-column="26" selection-end-line="106" selection-end-column="26" />
         </state>
       </provider>
     </entry>

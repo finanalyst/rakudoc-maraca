@@ -20,7 +20,7 @@ method what-has( Str $routine --> Hash ) is export {
     }
     else
     {
-        %( :$routine, :types(['Not supported by any Type']) )
+        %( :$routine, :info('Not supported by any Type') )
     }
 }
 
@@ -35,5 +35,12 @@ method doc-of( Str $type, Str $routine --> Hash ) is export {
     @search-results = type-search($type,
                                   :routine($routine),
                                   @documentables);
-    %( :$routine, :$type, :doc( str-search-results(@search-results)) );
+    my $rv = str-search-results(@search-results);
+    if $rv eq 'No matches' {
+        %( :$routine, :$type, :info( $rv ) )
+    }
+    else
+    {
+        %( :$routine, :$type, :doc( $rv ) )
+    }
 }
