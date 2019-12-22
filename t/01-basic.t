@@ -8,8 +8,8 @@ my DocSearch $s .= new;
 
 my $rv;
 lives-ok { $rv = $s.what-has( 'say' ) }, 'type response';
-is-deeply $rv<types>,
-    ['Independent routines', 'Mu', 'Proc::Async', 'IO::CatHandle', 'IO::Handle' ],'main say types';
+ok $rv<types>.Set (<=)
+    ['Independent routines', 'Mu', 'Proc::Async', 'IO::CatHandle', 'IO::Handle' ].Set,'main say types';
 lives-ok { $rv = $s.doc-of( 'Proc::Async', 'say' ) }, 'doc-of lives';
 like $rv<doc>, /
     '(Proc::Async) method say'
