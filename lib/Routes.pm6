@@ -1,5 +1,7 @@
 use Cro::HTTP::Router;
 use Cro::HTTP::Router::WebSocket;
+use Cro::BodySerializer;
+use Cro::WebSocket::Message::Opcode;
 use JSON::Fast;
 use DocSearch;
 
@@ -23,7 +25,29 @@ class Cro::WebSocket::BodyParser::Maraca does Cro::BodyParser {
     }
 }
 
-sub routes( Supplier $feedback, DocSearch $ds ) is export {
+class Cro::WebSocket::BodySerializer::Maraca does Cro::BodySerializer {
+    method is-applicable($message, $body) {
+        # We presume that if this body serializer has been installed, then we
+        # will always be doing Maraca type JSON
+        True
+    }
+
+    method serialize($message, $body) {
+        $message.opcode = Text;
+        # convert all arrays into hashes with numbered keys
+        supply emit to-json( $body.&a2h ).encode('utf-8')
+    }
+
+    sub a2h( $inp ) {
+        given $inp {
+            when Associative { %( gather for $inp.kv { take $^a => $^b.&a2h }) }
+            when Positional { %( gather for $inp.kv { take $^a + 1 => $^b.&a2h }) }
+            default { $inp }
+        }
+    }
+}
+
+sub routes( DocSearch $ds ) is export {
     route {
         get -> *@path {
             static 'static/', @path, :indexes<index.html index.htm>
@@ -32,26 +56,27 @@ sub routes( Supplier $feedback, DocSearch $ds ) is export {
         get -> 'docresponse' {
             web-socket
                     :body-parsers(Cro::WebSocket::BodyParser::Maraca),
-                    :body-serializers(Cro::WebSocket::BodySerializer::JSON),
+                    :body-serializers(Cro::WebSocket::BodySerializer::Maraca),
                     -> $incoming {
                         supply {
                             whenever $incoming -> $message {
                                 my $json = await $message.body;
-                                $feedback.emit($json);
                                 if $json ~~ Str {
-                                    emit %( :routine( $json ), :info('Sending error' );
+                                    emit %( :routine( $json ), :types( ['Sending error'] ));
                                 }
                                 else {
                                     if $json<routine>:exists {
                                         if $json<type>:exists {
-                                            emit( $ds.doc-of($json<type>, $json<routine>))
+                                            my $rv = $ds.doc-of($json<type>, $json<routine>);
+                                            emit( $rv )
                                         }
                                         else {
-                                            emit( $ds.what-has($json<routine>))
+                                            my $rv = $ds.what-has($json<routine>);
+                                            emit( $rv)
                                         }
                                     }
                                     else {
-                                        emit %( :routine( $json ), :info('Sending error' );
+                                        emit %( :routine( $json ), :types( ['Sending error'] ));
                                     }
                                 }
                             }

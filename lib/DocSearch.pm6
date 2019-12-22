@@ -20,11 +20,11 @@ method what-has( Str $routine --> Hash ) is export {
     }
     else
     {
-        %( :$routine, :info('Not supported by any Type') )
+        %( :$routine, :types(['Not supported by any Type']) )
     }
 }
 
-method doc-of( Str $type, Str $routine --> Str ) is export {
+method doc-of( Str $type, Str $routine --> Hash ) is export {
     my IO::Path @pod-paths;
     my Perl6::Documentable @documentables;
     my Perl6::Documentable @search-results;
@@ -35,5 +35,5 @@ method doc-of( Str $type, Str $routine --> Str ) is export {
     @search-results = type-search($type,
                                   :routine($routine),
                                   @documentables);
-    str-search-results(@search-results);
+    %( :$routine, :$type, :doc( str-search-results(@search-results)) );
 }
